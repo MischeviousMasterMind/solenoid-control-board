@@ -1,0 +1,87 @@
+.title KiCad schematic
+.save all
+.probe alli
+.probe p(R12)
+.probe p(R2)
+.probe p(R1)
+.probe p(R3)
+.probe p(R4)
+.probe p(R6)
+.probe p(R5)
+.probe p(R11)
+.probe p(R7)
+.probe p(R8)
+.probe p(R9)
+.probe p(R10)
+.probe p(Cinx2)
+.probe p(Cin2)
+.probe p(Rfbt4)
+.probe p(L2)
+.probe p(Cboot2)
+.probe p(Cout2)
+.probe p(Rfbt3)
+.probe p(Cboot1)
+.probe p(L1)
+.probe p(Rfbt2)
+.probe p(Rfbt1)
+.probe p(Cout1)
+.probe p(Cinx1)
+.probe p(Cin1)
+U7 __U7
+M6 __M6
+D12 __D12
+R12 Net-_D12-Pad1_ SOL_6_PWR 5k
+D1 __D1
+R2 Net-_D2-Pad1_ SOL_1_PWR 5k
+D2 __D2
+R1 Net-_D1-Pad1_ Net-_M1-Pad2_ 5k
+M1 __M1
+U4 __U4
+U1 __U1
+R3 Net-_D3-Pad1_ Net-_M2-Pad2_ 5k
+U2 __U2
+M2 __M2
+R4 Net-_D4-Pad1_ SOL_2_PWR 5k
+D4 __D4
+D3 __D3
+R6 Net-_D6-Pad1_ SOL_3_PWR 5k
+M3 __M3
+D6 __D6
+U6 __U6
+U3 __U3
+R5 Net-_D5-Pad1_ Net-_M3-Pad2_ 5k
+D5 __D5
+R11 Net-_D11-Pad1_ Net-_M6-Pad2_ 5k
+D11 __D11
+D7 __D7
+R7 Net-_D7-Pad1_ Net-_M4-Pad2_ 5k
+D8 __D8
+R8 Net-_D8-Pad1_ SOL_4_PWR 5k
+M4 __M4
+J3 __J3
+J2 __J2
+J1 __J1
+U5 __U5
+D9 __D9
+R9 Net-_D9-Pad1_ Net-_M5-Pad2_ 5k
+J4 __J4
+M5 __M5
+R10 Net-_D10-Pad1_ SOL_5_PWR 5k
+D10 __D10
+U9 __U9
+Cinx2 +BATT GND 100n
+Cin2 +BATT GND 4.7u
+Rfbt4 Net-_U9-FB_ GND 7.15k
+L2 Net-_U9-SW_ +12V 15u
+Cboot2 Net-_U9-CB_ Net-_U9-SW_ 100n
+Cout2 +12V GND 22u
+Rfbt3 +12V Net-_U9-FB_ 100k
+Cboot1 Net-_U8-CB_ Net-_U8-SW_ 100n
+L1 Net-_U8-SW_ +6V 15u
+Rfbt2 +6V Net-_U8-FB_ 100k
+Rfbt1 Net-_U8-FB_ GND 15.4k
+Cout1 +6V GND 47u
+Cinx1 +BATT GND 100n
+Cin1 +BATT GND 4.7u
+U8 __U8
+.end

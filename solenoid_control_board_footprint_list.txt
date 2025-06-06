@@ -1,0 +1,10 @@
+	Footprint Name			Symbol Name			Imported?		Description
+---------------------------------------------------------------------------------------
+[F]	L1020111MS02Q_CNK		L1020111MS02Q		Yes				SPDT Switch
+[F]	PW16					PCA953PWR			Yes				I2C to GPIO
+[F]	CONN_SM04B-GHS-TB_JST 	SM04B-GHS-TB		Yes				JST 4-Pin Connector		
+[F]	DQG0008A				CSD16323Q3			Yes				MOSFET
+[ ] 5055780671				505578-0671			No				MOLEX Connector
+[F] LED0603-R-RD_GREEN		SZYY0603G			No				Green LED
+[F] LED0603-R-RD_ORANGE		SZYY0603O			No				Orange LED
+[F] CONN-TH_XT30PW-M		XT30PW-M30.G.Y		No				XT30 Connector	
