@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "solenoid-control-board")(type "KiCad")(uri "${KIPRJMOD}/solenoid-control-board.pretty")(options "")(descr ""))
+)
