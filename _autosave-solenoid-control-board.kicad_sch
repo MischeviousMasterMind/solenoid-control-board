@@ -6,6 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Solenoid Control Board")
+		(date "2025-06-30")
 	)
 	(lib_symbols
 		(symbol "Downloaded:HX PZ2.54-2X3P ZZ"
